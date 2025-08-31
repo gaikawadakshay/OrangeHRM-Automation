@@ -1,32 +1,78 @@
 # OrangeHRM Automation Testing Project
 
-## Project Summary
-This is an end-to-end automation test suite for OrangeHRM using Selenium WebDriver, TestNG, and Maven. It demonstrates login, scrolling, adding/editing employees, and logout with Page Object Model (POM).
+📌 Overview
 
-## Prerequisites
-- JDK 17+
-- Maven 3.8+
-- Chrome browser
+This project is a Selenium + TestNG Automation Framework built for the OrangeHRM demo application
+It demonstrates end-to-end test automation for modules like:
 
-## Setup
-1. Clone or unzip the project.
-2. Run  to download dependencies.
+🔑 Login & Logout
 
-## Test Organization
-- Page Objects: 
-- Tests: 
-- Utilities: 
-- Uses POM for encapsulation, TestNG for structure.
+👤 Add Employee
 
-## How to Run
-- Default suite: 
-- Specific suite: 
-- In IDE: Import as Maven project, right-click testng.xml and run as TestNG suite.
-- Reports: Check  for TestNG reports; screenshots in  on failure.
+📝 Edit Employee Details
 
-## Adding More Tests
-Extend BaseTest and create new @Test methods using page objects.
+🔍 Search Employee
 
-## CI Suggestions
-Use GitHub Actions with this workflow (.github/workflows/ci.yml):
+❌ Delete Employee
+
+
+⚙️ Tech Stack
+
+Programming Language: Java (JDK 11 or later)
+
+Automation Tool: Selenium WebDriver
+
+Testing Framework: TestNG
+
+Build Tool: Maven
+
+Reporting: Extent Reports
+
+Design Pattern: Page Object Model (POM)
+
+📂 Project Structure
+
+OrangeHRM-Automation/
+│── src/main/java/com/orangehrm/pages/        # Page classes (POM)
+│── src/main/java/com/orangehrm/base/         # Base classes (driver setup)
+│── src/main/java/com/orangehrm/utils/        # Utility classes
+│── src/test/java/com/orangehrm/tests/        # Test cases
+│── testng.xml                                # TestNG Suite
+│── pom.xml                                   # Maven dependencies
+│── README.md                                 # Project documentation
+│── reports/                                  # Extent Reports
+│── screenshots/                              # Screenshots on failure
+
+
+🚀 How to Run Tests
+1️⃣ Clone the repository
+git clone https://github.com/your-username/OrangeHRM-Automation.git
+cd OrangeHRM-Automation
+
+2️⃣ Install dependencies
+mvn clean install
+
+3️⃣ Run tests using Maven
+mvn test
+
+4️⃣ Run tests using TestNG XML
+mvn clean test -DsuiteXmlFile=testng.xml
+
+📊 Reports & Screenshots
+
+Extent Reports are generated after every test run inside:
+/reports/ExtentReport.html
+
+Screenshots on failure are saved inside:
+/screenshots/
+
+🛠️ Future Enhancements
+
+✅ Integrate with Jenkins for CI/CD
+
+✅ Add Data-Driven Testing (Excel/CSV/DB)
+
+✅ Implement Parallel Testing with Selenium Grid
+
+✅ Add Cross-Browser Testing
 
