@@ -79,9 +79,11 @@ OrangeHRM-Automation/
 📊 Reports & Screenshots
 
 Extent Reports are generated after every test run inside:
+
 /reports/ExtentReport.html
 
 Screenshots on failure are saved inside:
+
 /screenshots/
 
 🛠️ Future Enhancements
