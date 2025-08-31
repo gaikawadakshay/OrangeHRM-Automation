@@ -32,16 +32,28 @@ It demonstrates end-to-end test automation for modules like:
 
 📂 Project Structure
 
-  OrangeHRM-Automation/
-  │── src/main/java/com/orangehrm/pages/        # Page classes (POM)
-  │── src/main/java/com/orangehrm/base/         # Base classes (driver setup)
-  │── src/main/java/com/orangehrm/utils/        # Utility classes
-  │── src/test/java/com/orangehrm/tests/        # Test cases
-  │── testng.xml                                # TestNG Suite
-  │── pom.xml                                   # Maven dependencies
-  │── README.md                                 # Project documentation
-  │── reports/                                  # Extent Reports
-  │── screenshots/                              # Screenshots on failure
+OrangeHRM-Automation/
+
+│── src/main/java/com/orangehrm/pages/        # Page classes (POM)
+
+│── src/main/java/com/orangehrm/base/         # Base classes (driver setup)
+
+│── src/main/java/com/orangehrm/utils/        # Utility classes
+
+│── src/test/java/com/orangehrm/tests/        # Test cases
+
+│── testng.xml                                # TestNG Suite
+
+│── pom.xml                                   # Maven dependencies
+
+│── README.md                                 # Project documentation
+
+│── reports/                                  # Extent Reports
+
+│── screenshots/                              # Screenshots on failure
+
+
+
 
 
 🚀 How to Run Tests
