@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.orangehrm.tests.AddEmployeeTest"/>
+            <class name="com.orangehrm.tests.EditEmployeeTest"/>
+            <class name="com.orangehrm.tests.EndToEndTest"/>
+        </classes>
+    </test>
+</suite>
