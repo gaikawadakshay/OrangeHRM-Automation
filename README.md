@@ -58,16 +58,21 @@ OrangeHRM-Automation/
 
 🚀 How to Run Tests
 1️⃣ Clone the repository
+
     git clone https://github.com/your-username/OrangeHRM-Automation.git
+    
     cd OrangeHRM-Automation
 
 2️⃣ Install dependencies
+
     mvn clean install
 
 3️⃣ Run tests using Maven
+
     mvn test
 
 4️⃣ Run tests using TestNG XML
+
     mvn clean test -DsuiteXmlFile=testng.xml
 
 📊 Reports & Screenshots
